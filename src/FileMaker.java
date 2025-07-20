@@ -6,4 +6,16 @@ public class FileMaker {
     {
 
     }
+
+    // Setters and Getters
+
+    public void setFilePath(String filePath)
+    {
+        this.filePath = filePath;
+    }
+
+    public String getFilePath()
+    {
+        return filePath;
+    }
 }
